@@ -33,7 +33,6 @@ editPost:
     appendFilePath: true # to append file path to Edit link
 ---
 
-**Insert Lead paragraph here.**
+## second
 
-## New Cool Posts
-
+*1234567*
