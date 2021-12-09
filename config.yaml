@@ -34,7 +34,7 @@ params:
   ShowCodeCopyButtons: false
   disableSpecial1stPost: false
   disableScrollToTop: false
-  comments: true
+  comments: false
   hidemeta: false
   hideSummary: false
   showtoc: false
@@ -110,6 +110,12 @@ params:
     threshold: 0.4
     minMatchCharLength: 0
     keys: ["title", "permalink", "summary", "content"]
+
+  utteranc:
+    enable: true
+    repo: zhuantou233/zhuantou233.github.io
+    issueTerm: title
+    theme: github-dark
 menu:
   main:
     - identifier: categories
@@ -125,12 +131,6 @@ menu:
       url: https://example.org
       weight: 30
 
-params:
-  utteranc:
-    enable: true
-    repo: zhuantou233/zhuantou233.github.io
-    issueTerm: title
-    theme: github-dark
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true
