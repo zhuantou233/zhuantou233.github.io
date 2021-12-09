@@ -4,10 +4,6 @@
     <title>ExampleSite</title>
     <link>https://zhuantou233.github.io/</link>
     <description>Recent content on ExampleSite</description>
-    <image>
-      <url>https://zhuantou233.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://zhuantou233.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 08 Dec 2021 15:20:06 +0800</lastBuildDate><atom:link href="https://zhuantou233.github.io/index.xml" rel="self" type="application/rss+xml" />
