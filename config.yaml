@@ -124,6 +124,14 @@ menu:
       name: example.org
       url: https://example.org
       weight: 30
+
+params:
+  utteranc:
+    enable: false
+    repo: zhuantou233/zhuantou233.github.io
+    issueTerm: title
+    theme: github-dark
+
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true
 # markup:
