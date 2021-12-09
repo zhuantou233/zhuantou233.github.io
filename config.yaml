@@ -127,7 +127,7 @@ menu:
 
 params:
   utteranc:
-    enable: false
+    enable: true
     repo: zhuantou233/zhuantou233.github.io
     issueTerm: title
     theme: github-dark
