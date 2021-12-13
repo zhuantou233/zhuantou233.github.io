@@ -108,6 +108,39 @@ fn main() { // Declare vector with three values let three_nums = vec![15, 3, 46]
 <footer class=entry-footer><span title="2020-09-15 11:30:03 +0000 UTC">September 15, 2020</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Me</footer>
 <a class=entry-link aria-label="post link to Second blog test" href=https://zhuantou233.github.io/posts/second/></a>
 </article>
+<article class=post-entry>
+<header class=entry-header>
+<h2>决策树
+</h2>
+</header>
+<section class=entry-content>
+<p>树即是人，人即是树
+参考：
+西瓜书第4章 决策树 决策树系列（一）——基础知识回顾与总结
+1. 基本流程 在日常生活中其实我们都可能在使用决策树算法，只是你没有这个概念，比如说，在这个看脸的时代，你在妹子心中的状态可以用下图描述
+{% asset_img tree.png 简单决策树 %}
+这样就完成了一个三分类决策树，每一个判断节点都是一个属性，每个节点的分支都是该属性的属性值。
+决策树学习基本算法
+输入：训练集$D = { (\boldsymbol{x}_1, y_1), (\boldsymbol{x}_2, y_2), …, (\boldsymbol{x}_m, y_m) }$；
+过程：函数$TreeGenerate(D, A)$
+01：生成结点$node$；
+02：$if$ $D$中样本全属于同一类别$C$ $then$
+03： 将$node$标记为$C$类叶结点；$return$
+04：$end$ $if$
+05：$if$ $A = \emptyset$ $OR$ $D$ 中样本在$A$上的取值相同 $then$
+06： 将$node$标记为叶结点，其类别标记为$D$中样本数最多的类；$return$
+07：$end$ $if$
+08：从$A$中选择最优化分属性$a_k$；
+09：$for$ $a_k$的每一个值$a^v_k$ $do$
+10： 为$node$生成一个分支；令$D_v$表示$D$中在$a_k$上取值为$a_k^v$的样本子集；
+11： $if$ $D_v$为空 $then$
+12： 将分支结点标记为叶结点，其标记类别为$D$中样本最多的类；$return$
+13： $else$
+14： 以$TreeGenerate(D_v, A \setminus {a_k })$为分支结点...</p>
+</section>
+<footer class=entry-footer><span title="2018-11-07 16:32:20 +0000 UTC">November 7, 2018</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Me</footer>
+<a class=entry-link aria-label="post link to 决策树" href=https://zhuantou233.github.io/posts/2018-11-07-%E5%86%B3%E7%AD%96%E6%A0%91/></a>
+</article>
 </main>
 <footer class=footer>
 <span>&copy; 2021 <a href=https://zhuantou233.github.io/>ExampleSite</a></span>
