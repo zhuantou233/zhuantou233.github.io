@@ -22,12 +22,15 @@ $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$</description>
     </item>
     
     <item>
-      <title>My 1st post</title>
+      <title>Second blog test</title>
       <link>https://zhuantou233.github.io/posts/second/</link>
       <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
       
       <guid>https://zhuantou233.github.io/posts/second/</guid>
-      <description>Desc Text.</description>
+      <description>second 1234567
+When $a \ne 0$, there are two solutions to $ax^2 + bx + c = 0$ and they are:
+$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$
+fn main() { // Declare vector with three values  let three_nums = vec![15, 3, 46]; println!(&amp;#34;Initial vector: {:?}&amp;#34;, three_nums); // Declare vector of length = 5, specify first element value = &amp;#34;0&amp;#34;  // Short form of: let zeroes = vec![&amp;#34;0&amp;#34;, &amp;#34;0&amp;#34;, &amp;#34;0&amp;#34;, &amp;#34;0&amp;#34;, &amp;#34;0&amp;#34;]  let zeroes = vec!</description>
     </item>
     
   </channel>
