@@ -6,7 +6,7 @@ date: 2020-09-15T11:30:03+00:00
 tags: ["first"]
 series: ["test"]
 author: "Me"
-math: trus
+mathjax: true
 # author: ["Me", "You"] # multiple authors
 draft: false
 hideSummary: false

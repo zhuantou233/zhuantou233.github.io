@@ -1,12 +1,13 @@
-{{ if .Params.math }}
+{{ if .Params.mathjax }}
 <script>
   MathJax = {
     tex: {
       inlineMath: [["$", "$"]],
+      processEscapes: true,
+      processEnvironments: true
     },
     displayMath: [
-      ["$$", "$$"],
-      ["\[", "\]"],
+      ["$$", "$$"]
     ],
     svg: {
       fontCache: "global",
